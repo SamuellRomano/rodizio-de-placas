@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodizio de placas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <section>
+        <h1>Rodízio de placas</h1>
+            <label for="dia">Dia da semana:</label>
+            <input type="text" id="dia" placeholder="Digite o dia da semana" required>
+            <label for="placa">Final da placa:</label>
+            <input type="text" id="placa" placeholder="Digite o final da placa" maxlength="1" required>
+            <label for="horas">Horario:</label>
+            <input type="text" id="horas" placeholder="Digite o horario (XX:XX)" required>
+
+            <label for="veiculo">Caminhão:</label>
+            <input type="radio" name="veiculo" value="caminhao">
+            <label for="veiculo">Automóvel:</label>
+            <input type="radio" name="veiculo" value="carro">
+        <button onclick="verificar()">Verificar</button>
+        <p></p>
+    </section>
+</body>
+
+</html>
